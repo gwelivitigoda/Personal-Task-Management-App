@@ -1,18 +1,17 @@
 ---
 name: User Story
-about: Describe this issue template's purpose here.
-title: ''
-labels: ''
-assignees: ''
-
+about: Create a user story with acceptance criteria
+title: "[User Story] "
+labels: user-story
+assignees: 
 ---
 
-Feature: <Feature Name>
-  As a <type of user>
-  I want <goal>
-  So that <benefit>
+# User Story
+As a [type of user], I want [goal] so that [benefit].
 
-  Scenario: <Scenario Description>
-    Given <initial context or precondition>
-    When <action taken by user>
-    Then <expected outcome>
+## Acceptance Criteria
+```gherkin
+Scenario: [Scenario Name]
+  Given [context]
+  When [action]
+  Then [expected result]
